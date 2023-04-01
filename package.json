@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "packageManager": "pnpm@7.29.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "next": "cd frameworks/next-starter && pnpm i && pnpm dev"
   },
   "keywords": [],
-  "author": "yannafaith",
-  "license": "ISC"
+  "author": "yannafaith"
 }
