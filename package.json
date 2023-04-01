@@ -1,10 +1,26 @@
 {
-  "name": "templates",
-  "version": "1.0.0",
-  "packageManager": "pnpm@7.29.1",
+  "name": "next-starter",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "next": "cd frameworks/next-starter && pnpm i && pnpm dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "yannafaith"
+  "dependencies": {
+    "@types/node": "18.11.19",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "encoding": "^0.1.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
 }

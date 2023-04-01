@@ -1,6 +1,6 @@
-# Next + pnpm + typescript + tailwind 
+# Next.js Application with create-next-app
 
-This is a starter application built using Next 13, pnpm workspaces, typescript, and tailwind.
+This is a Next.js application created using the `create-next-app` command. It is a ready-to-use template for building high-performance React applications.
 
 ## Table of Contents
 
@@ -8,19 +8,14 @@ This is a starter application built using Next 13, pnpm workspaces, typescript, 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
-- [Adding a Workspace](#adding-a-workspace)
+- [Customizing](#customizing)
+- [Deployment](#deployment)
 
 ## Features
 
-- [Next.js 13](https://nextjs.org/blog/next-13) - A popular React framework for building high-performance applications.
-- [PNPM Workspaces](https://pnpm.io/workspaces) - Efficient dependency management that allows you to manage multiple projects in a monorepo.
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces.
-- [Typescript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
+- [Next.js](https://nextjs.org/) - A popular React framework for building high-performance applications.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 
-## Prerequisites
-
-- [Node.js 14.17+](https://nodejs.org/en/)
-- [PNPM](https://pnpm.io/)
 
 ## Getting Started
 
@@ -29,16 +24,3 @@ Install dependencies and start the development server.
 pnpm install && pnpm dev
 ```
 Open your browser and navigate to http://localhost:3000.
-
-## Adding a Workspace
-
-1. Create a new folder inside `libs` and name it accordingly.
-2. Add a `package.json` file inside the newly created folder.
-3. Register the new workspace in `pnpm-workspace.yaml` under the `libs` field:
-
-
-```yaml
-packages:
-  - 'frameworks/next-starter'
-  - 'frameworks/<new-workspace>'
-```
