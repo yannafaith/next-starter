@@ -1,15 +1,7 @@
-export interface PageProps {
-    page: any;
-}
-export const metadata = {
-    title: 'Next.js Template',
-    description: 'A starter NextJs template',
+import { Main } from "./Main"
+
+function IndexPopup() {
+  return <Main />
 }
 
-export default function RootPage( page: PageProps ): JSX.Element {
-    return (
-        <div>
-            <h1>Home Page</h1>
-        </div>
-    )
-}
+export default IndexPopup
