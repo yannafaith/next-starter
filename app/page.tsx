@@ -1,7 +1,12 @@
-import { Main } from "./Main"
 
-function IndexPopup() {
-  return <Main />
+function Home() {
+  return (
+    <div>
+      <h1>
+        Welcome to your new app!
+      </h1>
+    </div>
+  )
 }
 
-export default IndexPopup
+export default Home
