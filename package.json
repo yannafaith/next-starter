@@ -1,18 +1,19 @@
 {
-  "name": "plasmo-connect",
-  "version": "0.1.0",
+  "name": "next-starter-template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^22.15.30",
-    "@types/react": "^19.1.6",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^22.16.5",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "next": "^15.3.3",
+    "next": "^15.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "typescript": "^5.8.3"
@@ -20,7 +21,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "encoding": "^0.1.13",
-    "postcss": "^8.5.4",
-    "tailwindcss": "^4.1.8"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   }
 }

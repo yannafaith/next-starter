@@ -72,5 +72,4 @@ typings/
 
 # IDE / Editor directories
 .idea/
-.vscode/
 *.code-workspace
